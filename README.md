@@ -13,21 +13,21 @@
 
 	* An outer for loop is used to initialize the total volume to zero.
 
-	[Outer_For_Loop](C:/Mod-2-VBA-Challenge/Other images/Outer_For_Loop.png)
+	[Outer_For_Loop.png](Other images/Outer_For_Loop.png)
 
 	* Then an inner for loop is used to loop over all the rows in the spreadsheet. The iterator will be j instead of 
 
-	![Inner_For_Loop](C:/Mod-2-VBA-Challenge/Other images/Inner_For_Loop.png)			
+	![Inner_For_Loop.png](Other images/Inner_For_Loop.png)			
 
 	* If then conditionals are used to find the total volume and the starting and ending prices for each ticker.
 
-	![Inner_If_Then](C:/Mod-2-VBA-Challenge/Other images/Inner_If_Then.png)
+	![Inner_If_Then.pmg](Other images/Inner_If_Then.png)
 
 For 2017, the code run time is 812.427 seconds and the run time for 2018 was 242 seconds. 
 
-	![2017_Total_Time](C:/Mod-2-VBA-Challenge/Resources/2017_Total_Time.png)
+	![2017_Total_Time.png](Resources/2017_Total_Time.png)
 	
-	![2018_Total_Time](C:/Mod-2-VBA-Challenge/Resources/2018_Total_Time.png)
+	![2018_Total_Time.png](Resources/2018_Total_Time.png)
 
 ### Refactored Code Solution
 
@@ -37,14 +37,14 @@ For 2017, the code run time is 812.427 seconds and the run time for 2018 was 242
 	
 The run time for the 2017 stock analysis is now 0.0625 seconds and 0.070 seconds for 2018. 
 
-	![VBA_Challenge_2017](C:/Mod-2-VBA-Challenge/Resources/VBA_Challenge_2017.png)
-	![VBA_Challange_2018](C:/Mod-2-VBA-Challenge/Resources/VBA_Challange_2018.png)
+	![VBA_Challenge_2017.png](Resources/VBA_Challenge_2017.png)
+	![VBA_Challange_2018.png](Resources/VBA_Challange_2018.png)
 	
 	While the run time for the refactored loop is slightly faster, both scripts give the same output for each year’s stock analysis. The stock performance for 2017 had a more positive outcome. Only one stock had a negative return. 2018 on the other hand had more negative returns with only 2 stocks having a positive return. 
 
-	![2017_StockAnalysis](C:/Mod-2-VBA-Challenge/Other images/2017_StockAnalysis.png)
+	![2017_StockAnalysis.png](Other images/2017_StockAnalysis.png)
 	
-	![2018_StockAnalysis](C:/Mod-2-VBA-Challenge/Other images/2018_StockAnalysis.png)
+	![2018_StockAnalysis.png](Other images/2018_StockAnalysis.png)
   
 
 ## **Summary**
@@ -56,6 +56,6 @@ The run time for the 2017 stock analysis is now 0.0625 seconds and 0.070 seconds
 
 ### Comparison of the Original and Refactored code
 
-	In the original code, a nested for loop was used to get the total volume and the starting and ending prices. This could account for the additional time it took for the code to run through all the data. While nested for loops are useful and at times necessary, it might not be useful for when having to loop through large amounts of data. The refactored code did not require a nested for loop and as a result, ran quicker. This also made the script easier to read and follow. In short, the refactored code turned out to be the more efficient as intended. 
+	In the original code, a nested for loop was used to get the total volume and the starting and ending prices. This could account for the additional seconds it took for the code to run through all the data. While nested for loops are useful and at times necessary, it might not be useful for when having to loop through large amounts of data. The refactored code did not require a nested for loop and as a result, ran quicker. This also made the script easier to read and follow. In short, the refactored code turned out to be the more efficient as intended. 
 
 
