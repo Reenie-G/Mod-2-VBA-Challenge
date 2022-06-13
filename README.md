@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-       ### The purpose of this project is to analyze and compare the performance of 12 stocks for the years 2017 and 2018. To accomplish this, the original code solution from Module 2, All Stock Analysis was refactored with the intent of making it more efficient. 
+        The purpose of this project is to analyze and compare the performance of 12 stocks for the years 2017 and 2018. To accomplish this, the original code solution from Module 2, All Stock Analysis was refactored with the intent of making it more efficient. 
 
 
 ## **Results**
@@ -13,29 +13,30 @@
 
 * An outer for loop is used to initialize the total volume to zero.
 
-(Outer_For_Loop Image)
+[Outer_For_Loop .pgn](C:\Mod-2-VBA-Challenge\Other images\Outer_For_Loop.png)
 
 
 * Then an inner for loop is used to loop over all the rows in the spreadsheet. The iterator will be j instead of i. 
 
-(Inner_For_Loop Image)
+[Inner_For_Loop.png](C:\Mod-2-VBA-Challenge\Other images\Inner_For_Loop.png)
 
 			
 
 * If then conditionals are used to find the total volume and the starting and ending prices for each ticker.
 
-(If_Then Image)
+[Inner_For Loop.png](C:\Mod-2-VBA-Challenge\Other images\Inner_For_Loop.png)
 
 For 2017 the code run time is 812.427 seconds and the run time for 2018 was 242 seconds. 
 
-	(2017 & 2018 Total_RunTime Image)
+	[VBA_Challenge_2017.png](C:\Mod-2-VBA-Challenge\Resources\VBA_Challenge_2017.png)
+	[VBA_Challenge_2018.png](C:\Mod-2-VBA-Challenge\Resources\VBA_Challenge_2018.png)
 
 ### Refactored Code Solution
 
 	For the refactored code, the original code is copied into the VBA editor and slightly modified to decrease the run time but have the same output. To get the total volume, and the starting and ending prices, the same for loop is used to initialize the total volume to zero; however, instead of an inner loop, another for i loop is used to loop around the rows of data. The same if then conditionals will give the start and ending prices. 
 
 	(Refactored Code Image)
-While the run time for the refactored loop is slightly faster, both scripts give the same output for each year’s stock analysis. The stock performance for 2017 had a more positive outcome. Only one stock had a negative return. 2018 on the other hand had more negative returns with only 2 stocks having a positive return. 
+While the run time for the refactored loop is slightly faster, both scripts give the same output for each yearâ€™s stock analysis. The stock performance for 2017 had a more positive outcome. Only one stock had a negative return. 2018 on the other hand had more negative returns with only 2 stocks having a positive return. 
 
 (2017 & 2018 Stock Analysis Image 
   
