@@ -33,7 +33,7 @@ For 2017, the code run time is 812.427 seconds and the run time for 2018 was 242
 
 	For the refactored code, the original code is copied into the VBA editor and slightly modified to decrease the run time but have the same output. To get the total volume, and the starting and ending prices, the same for loop is used to initialize the total volume to zero; however, instead of an inner loop, another for i loop is used to loop around the rows of data. The same if then conditionals will give the start and ending prices. 
 
-	![Refactored_Cod](Other images/Refactored_Code.png)
+	![Refactored_Code](Other images/Refactored_Code.png)
 	
 The run time for the 2017 stock analysis is now 0.0625 seconds and 0.070 seconds for 2018. 
 
