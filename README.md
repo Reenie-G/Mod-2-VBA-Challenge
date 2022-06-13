@@ -38,7 +38,7 @@ For 2017, the code run time is 812.427 seconds and the run time for 2018 was 242
 The run time for the 2017 stock analysis is now 0.0625 seconds and 0.070 seconds for 2018. 
 
 	![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
-	![VBA_Challange_2018](Resources/VBA_Challange_2018.png)
+	![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 	
 	While the run time for the refactored loop is slightly faster, both scripts give the same output for each year’s stock analysis. The stock performance for 2017 had a more positive outcome. Only one stock had a negative return. 2018 on the other hand had more negative returns with only 2 stocks having a positive return. 
 
