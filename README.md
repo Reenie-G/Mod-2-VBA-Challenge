@@ -13,7 +13,7 @@
 
 	* An outer for loop is used to initialize the total volume to zero.
 
-	[Outer_For_Loop.png](Other images/Outer_For_Loop.png)
+	![Outer_For_Loop.png](Other images/Outer_For_Loop.png)
 
 	* Then an inner for loop is used to loop over all the rows in the spreadsheet. The iterator will be j instead of 
 
@@ -21,7 +21,7 @@
 
 	* If then conditionals are used to find the total volume and the starting and ending prices for each ticker.
 
-	![Inner_If_Then.pmg](Other images/Inner_If_Then.png)
+	![Inner_If_Then.png](Other images/Inner_If_Then.png)
 
 For 2017, the code run time is 812.427 seconds and the run time for 2018 was 242 seconds. 
 
