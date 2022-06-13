@@ -13,27 +13,27 @@
 
 	* An outer for loop is used to initialize the total volume to zero.
 
-	![Outer_For_Loop](Other images/Outer_For_Loop.png)
+![Outer_For_Loop](Other%20images/Outer_For_Loop.png)
 
 	* Then an inner for loop is used to loop over all the rows in the spreadsheet. The iterator will be j instead of 
 
-![Inner_For_Loop](Other images/Inner_For_Loop.png)			
+![Inner_For_Loop](Other%20images/Inner_For_Loop.png)			
 
 	* If then conditionals are used to find the total volume and the starting and ending prices for each ticker.
 
-![Inner_If_Then](Other images/Inner_If_Then.png)
+![Inner_If_Then](Other%20images/Inner_If_Then.png)
 
 For 2017, the code run time is 812.427 seconds and the run time for 2018 was 242 seconds. 
 
-![2017_Total_Time](Other images/2017_Total_Time.png)
+![2017_Total_Time](Other%20images/2017_Total_Time.png)
 	
-![2018_Total_Time](Other images/2018_Total_Time.png)
+![2018_Total_Time](Other%20images/2018_Total_Time.png)
 
 ### Refactored Code Solution
 
 	For the refactored code, the original code is copied into the VBA editor and slightly modified to decrease the run time but have the same output. To get the total volume, and the starting and ending prices, the same for loop is used to initialize the total volume to zero; however, instead of an inner loop, another for i loop is used to loop around the rows of data. The same if then conditionals will give the start and ending prices. 
 
-![Refactored_Code](Other images/Refactored_Code.png)
+![Refactored_Code](Other%20images/Refactored_Code.png)
 	
 The run time for the 2017 stock analysis is now 0.0625 seconds and 0.070 seconds for 2018. 
 
@@ -43,9 +43,9 @@ The run time for the 2017 stock analysis is now 0.0625 seconds and 0.070 seconds
 	
 	While the run time for the refactored loop is slightly faster, both scripts give the same output for each year’s stock analysis. The stock performance for 2017 had a more positive outcome. Only one stock had a negative return. 2018 on the other hand had more negative returns with only 2 stocks having a positive return. 
 
-![2017_StockAnalysis](Other images/2017_StockAnalysis.png)
+![2017_StockAnalysis](Other%20images/2017_StockAnalysis.png)
 	
-![2018_StockAnalysis](Other images/2018_StockAnalysis.png)
+![2018_StockAnalysis](Other%20images/2018_StockAnalysis.png)
   
 
 ## **Summary**
